@@ -12,9 +12,11 @@
 10. Copy an existing text file into a newly created text file using both types of stream. :x:
 11. Write an applet to display a moving banner. :x:
 12. Write an applet that shows the following AWT controls :x:
+```
 	-> checkbox
 	-> choice list
-	-> push button
+	-> push button 
+```
 13. WAP to accept details of employee(name, eno, mobile no., designation, salary) using AWT controls. :x:
 14. Write an applet that implements MouseListener and MouseMotionListener. :x:
 15. WAP that accepts 10 names from keyboard and arrange them in dictionary order. :x:
