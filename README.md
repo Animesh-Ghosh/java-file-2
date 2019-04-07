@@ -7,9 +7,9 @@
 5. Demonstrate application of isAlive() or join() method. :white_check_mark:
 6. Spawn 3 childs threads with different priorities. Display their name and priorities. :white_check_mark:
 7. Demonstrate the use of synchronization by spawning 3 different threads. :white_check_mark:
-8. Demonstrate inter-thread communication. :x:
-9. Take input from keyboard and write into a file using character stream and byte stream. :x:
-10. Copy an existing text file into a newly created text file using both types of stream. :x:
+8. Demonstrate inter-thread communication. :white_check_mark:
+9. Take input from keyboard and write into a file using character stream and byte stream. :white_check_mark:
+10. Copy an existing text file into a newly created text file using both types of stream. :white_check_mark:
 11. Write an applet to display a moving banner. :x:
 12. Write an applet that shows the following AWT controls :x:
 ```
