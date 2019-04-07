@@ -1,8 +1,8 @@
 # java-file-2
 
-1. WAP to demonstrate checked or  unchecked execption. :x:
-2. WAP to input salary of a person along with his name, if th salary is less than 70,000 then throw an exception with a proper message "not eligible for loan". :x:
-3. Spawn 3 child threads. Make use of sleep() method. Let each of the three threads and main thread print appropriate message. :x:
+1. WAP to demonstrate checked or  unchecked execption. :white_check_mark:
+2. WAP to input salary of a person along with his name, if th salary is less than 70,000 then throw an exception with a proper message "not eligible for loan". :white_check_mark:
+3. Spawn 3 child threads. Make use of sleep() method. Let each of the three threads and main thread print appropriate message. :white_check_mark:
 4. Display ID's of 5 different child threads spawned from main. :x:
 5. Demonstrate application of isAlive() or join() method. :x:
 6. Spawn 3 childs threads with different priorities. Display their name and priorities. :x:
