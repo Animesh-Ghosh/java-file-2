@@ -3,10 +3,10 @@
 1. WAP to demonstrate checked or  unchecked execption. :white_check_mark:
 2. WAP to input salary of a person along with his name, if th salary is less than 70,000 then throw an exception with a proper message "not eligible for loan". :white_check_mark:
 3. Spawn 3 child threads. Make use of sleep() method. Let each of the three threads and main thread print appropriate message. :white_check_mark:
-4. Display ID's of 5 different child threads spawned from main. :x:
-5. Demonstrate application of isAlive() or join() method. :x:
-6. Spawn 3 childs threads with different priorities. Display their name and priorities. :x:
-7. Demonstrate the use of synchronization by spawning 3 different threads. :x:
+4. Display ID's of 5 different child threads spawned from main. :white_check_mark:
+5. Demonstrate application of isAlive() or join() method. :white_check_mark:
+6. Spawn 3 childs threads with different priorities. Display their name and priorities. :white_check_mark:
+7. Demonstrate the use of synchronization by spawning 3 different threads. :white_check_mark:
 8. Demonstrate inter-thread communication. :x:
 9. Take input from keyboard and write into a file using character stream and byte stream. :x:
 10. Copy an existing text file into a newly created text file using both types of stream. :x:
