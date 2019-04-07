@@ -10,9 +10,9 @@ class Question15 {
 			names[i] = input.nextLine ();
 		Arrays.sort (names);
 		/* case insensitive sorting
-		Arrays.sort(names, String.CASE_INSENSITIVE_ORDER); */
+		Arrays.sort (names, String.CASE_INSENSITIVE_ORDER); */
 		System.out.println ("Names in sorted order: ");
 		for (int i = 0; i < names.length; i++) 
-			System.out.println(names[i]);
+			System.out.println (names[i]);
 	}
 }

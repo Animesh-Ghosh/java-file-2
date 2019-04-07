@@ -10,7 +10,7 @@
 8. Write a program to demonstrate inter-thread communication. :white_check_mark:
 9. Write a program to take input from keyboard and write into a file using character stream and byte stream. :white_check_mark:
 10. Write a program to copy an existing text file into a newly created text file using both types of stream. :white_check_mark:
-11. Write an applet to display a moving banner. :x:
+11. Write an applet to display a moving banner. :white_check_mark:
 12. Write an applet that shows the following AWT controls: :x:
 	* checkbox
 	* choice list
