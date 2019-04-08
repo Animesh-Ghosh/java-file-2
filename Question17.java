@@ -1,6 +1,5 @@
 import java.awt.*;
 import java.applet.*;
-import java.util.*;
 
 // demonstrate BorderLayout with insets.
 

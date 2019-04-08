@@ -1,6 +1,6 @@
 import java.awt.*;
-import java.applet.*;
 import java.awt.event.*;
+import java.applet.*;
 
 // program to create an applet to handle mouse events
 
