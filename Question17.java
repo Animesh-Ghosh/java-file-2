@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.applet.*;
 
-// demonstrate BorderLayout with insets.
+// program to create an applet that demonstrate the working of button, label, insets
 
 /* <applet code="Question17" width=400 height=200>
 	</applet> */

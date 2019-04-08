@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 
-// program to create an applet to handle mouse events
+// program to create an applet that implements MouseListener and MouseMotionListener
 
 /* <applet code="Question14" width=300 height=100>
 	</applet>

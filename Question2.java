@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/* program to input salary of a person along with his name, if their salary is 
+/* program to input salary of a person along with their name. If their salary is 
 	less than 70000 then throw an exception with a proper message "Not eligible for loan!" */
 
 class Loan extends Exception {

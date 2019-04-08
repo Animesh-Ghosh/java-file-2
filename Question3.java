@@ -1,4 +1,4 @@
-//  program to demonstrate creation of multiple child threads.
+// program to spawn 3 child threads
 
 class A extends Thread {
 	public void run () {

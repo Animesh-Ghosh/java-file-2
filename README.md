@@ -10,16 +10,16 @@
 8. Write a program to demonstrate inter-thread communication. :white_check_mark:
 9. Write a program to take input from keyboard and write into a file using character stream and byte stream. :white_check_mark:
 10. Write a program to copy an existing text file into a newly created text file using both types of stream. :white_check_mark:
-11. Write an applet to display a moving banner. :white_check_mark:
-12. Write an applet that shows the following AWT controls: :white_check_mark:
+11. Write a program to create an applet to display a moving banner. :white_check_mark:
+12. Write a program to create an applet that shows the following AWT controls: :white_check_mark:
 	* checkbox
 	* choice list
 	* push button
 13. Write a program to accept details of employee(name, eno, mobile no., designation, salary) using AWT controls. :x:
-14. Write an applet that implements MouseListener and MouseMotionListener. :white_check_mark:
+14. Write a program to create an applet that implements MouseListener and MouseMotionListener. :white_check_mark:
 15. Write a program that accepts 10 names from keyboard and arrange them in dictionary order. :white_check_mark:
-16. Write an applet that demonstrates working of 3 scrollbars(RGB) to change background color. :white_check_mark:
-17. Write an applet that demonstrate the working of button, label, insets. :white_check_mark:
+16. Write a program to create an applet that demonstrates working of 3 scrollbars (RGB) to change background color. :white_check_mark:
+17. Write a program to create an applet that demonstrate the working of button, label, insets. :white_check_mark:
 18. Write a program to implement any one of the 4 layout managers. :white_check_mark:
 19. Write a program to connect to any database using JDBC Type 4 driver. :x:
-20. Write a program demonstrate use of TCP and UDP methods. :x:
+20. Write a program to demonstrate use of TCP and UDP methods. :x:

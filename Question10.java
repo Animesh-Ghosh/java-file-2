@@ -1,6 +1,7 @@
 import java.io.*;
 
-/* program to copy an existing text file into a newly created file */
+/* program to copy an existing text file into a newly created text file 
+	using both types of streams */
 
 class CharStreamDemo {
 	CharStreamDemo () {

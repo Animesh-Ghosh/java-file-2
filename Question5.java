@@ -1,4 +1,4 @@
-// program to demonstrate use of isAlive () method
+// program to demonstrate application of isAlive() or join() method
 
 class Count extends Thread {
 	Count () {

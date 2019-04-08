@@ -2,7 +2,8 @@ import java.applet.*;
 import java.awt.event.*;
 import java.awt.*;
 
-// applet that demonstrates working of 3 scrollbars(RGB) to change background color
+/* program to create an applet that demonstrates working of 3 scrollbars (RGB) 
+	to change background color */
 
 /* <applet code="Question16" height=200 width=300>
 	</applet> */

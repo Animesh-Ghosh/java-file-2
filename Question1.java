@@ -1,4 +1,4 @@
-// program to demonstrate unchecked exception
+// program to demonstrate checked or unchecked exception
 
 class Question1 {
 	public static void main (String[] args) {
