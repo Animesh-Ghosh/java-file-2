@@ -18,8 +18,8 @@
 13. Write a program to accept details of employee(name, eno, mobile no., designation, salary) using AWT controls. :x:
 14. Write an applet that implements MouseListener and MouseMotionListener. :white_check_mark:
 15. Write a program that accepts 10 names from keyboard and arrange them in dictionary order. :white_check_mark:
-16. Write an applet that demonstrates working of 3 scrollbars(RGB) to change background color. :x:
+16. Write an applet that demonstrates working of 3 scrollbars(RGB) to change background color. :white_check_mark:
 17. Write an applet that demonstrate the working of button, label, insets. :white_check_mark:
-18. Write a program to implement any one of the 4 layout managers. :x:
+18. Write a program to implement any one of the 4 layout managers. :white_check_mark:
 19. Write a program to connect to any database using JDBC Type 4 driver. :x:
 20. Write a program demonstrate use of TCP and UDP methods. :x:
