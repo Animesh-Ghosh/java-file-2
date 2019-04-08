@@ -15,7 +15,7 @@
 	* checkbox
 	* choice list
 	* push button
-13. Write a program to accept details of employee(name, eno, mobile no., designation, salary) using AWT controls. :x:
+13. Write a program to accept details of employee (name, eno, mobile no., designation, salary) using AWT controls. :white_check_mark:
 14. Write a program to create an applet that implements MouseListener and MouseMotionListener. :white_check_mark:
 15. Write a program that accepts 10 names from keyboard and arrange them in dictionary order. :white_check_mark:
 16. Write a program to create an applet that demonstrates working of 3 scrollbars (RGB) to change background color. :white_check_mark:
