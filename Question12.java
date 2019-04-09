@@ -13,6 +13,7 @@ public class Question12 extends Applet implements ItemListener, ActionListener {
 	Button Yes, No, Maybe;
 	String os, winMSG, macMSG, linxMSG, browser, browserMSG, msg;
 	public void init () {
+		setBackground (Color.cyan);
 		os = "Current OS selection: ";
 		browser = "Current Browser selection: ";
 		msg = "No button pressed yet!";

@@ -13,6 +13,7 @@ public class Question18 extends Applet implements ItemListener, ActionListener {
 	List Browsers;
 	String os, browsers, browsersMSG;
 	public void init () {
+		setBackground (Color.cyan);
 		setLayout (new FlowLayout (FlowLayout.CENTER, 10, 15));
 		os = "Current OS selection: ";
 		browsers = "Current Browsers selection: ";

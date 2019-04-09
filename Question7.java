@@ -1,6 +1,6 @@
 // program to demonstrate the use of synchronization by spawning 3 different threads
 
-class Demo {
+class syncDemo {
 	synchronized void print (int n) {
 		for (int i = 1; i <= 3; i++) {
 			System.out.println (n + " x " + i + " = " + (n * i));
@@ -14,9 +14,9 @@ class Demo {
 	}
 }
 
-class MyThread1 extends Thread {
-	Demo d;
-	MyThread1 (Demo d) {
+class syncThread1 extends Thread {
+	syncDemo d;
+	syncThread1 (syncDemo d) {
 		this.d = d;
 	}
 	public void run () {
@@ -24,9 +24,9 @@ class MyThread1 extends Thread {
 	}	
 }
 
-class MyThread2 extends Thread {
-	Demo d;
-	MyThread2 (Demo d) {
+class syncThread2 extends Thread {
+	syncDemo d;
+	syncThread2 (syncDemo d) {
 		this.d = d;
 	}
 	public void run () {
@@ -34,9 +34,9 @@ class MyThread2 extends Thread {
 	}
 }
 
-class MyThread3 extends Thread {
-	Demo d;
-	MyThread3 (Demo d) {
+class syncThread3 extends Thread {
+	syncDemo d;
+	syncThread3 (syncDemo d) {
 		this.d = d;
 	}
 	public void run () {
@@ -46,10 +46,10 @@ class MyThread3 extends Thread {
 
 class Question7 {
 	public static void main (String[] args) {
-		Demo obj = new Demo ();
-		MyThread1 obj1 = new MyThread1 (obj);
-		MyThread2 obj2 = new MyThread2 (obj);
-		MyThread3 obj3 = new MyThread3 (obj);
+		syncDemo obj = new syncDemo ();
+		syncThread1 obj1 = new syncThread1 (obj);
+		syncThread2 obj2 = new syncThread2 (obj);
+		syncThread3 obj3 = new syncThread3 (obj);
 		obj1.start ();
 		obj2.start ();
 		obj3.start ();

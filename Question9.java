@@ -3,8 +3,8 @@ import java.io.*;
 /* program to take input from keyboard and write into a file using character stream 
 	and byte stream */
 
-class CharStreamDemo {
-	CharStreamDemo () {
+class CharStreamWriteDemo {
+	CharStreamWriteDemo () {
 		FileWriter target = null;
 		BufferedReader br = null;
 		char c;
@@ -33,8 +33,8 @@ class CharStreamDemo {
 	}
 }
 
-class ByteStreamDemo {
-	ByteStreamDemo () {
+class ByteStreamWriteDemo {
+	ByteStreamWriteDemo () {
 		FileOutputStream target = null;
 		BufferedReader br = null;
 		char c;
@@ -65,7 +65,7 @@ class ByteStreamDemo {
 
 class Question9 {
 	public static void main(String[] args) {
-		CharStreamDemo charStreamObj = new CharStreamDemo ();
-		ByteStreamDemo byteStreamObj = new ByteStreamDemo ();
+		CharStreamWriteDemo charStreamObj = new CharStreamWriteDemo ();
+		ByteStreamWriteDemo byteStreamObj = new ByteStreamWriteDemo ();
 	}
 }

@@ -3,8 +3,8 @@ import java.io.*;
 /* program to copy an existing text file into a newly created text file 
 	using both types of streams */
 
-class CharStreamDemo {
-	CharStreamDemo () {
+class CharStreamCopyDemo {
+	CharStreamCopyDemo () {
 		FileReader source = null;
 		FileWriter target = null;
 		int k;
@@ -33,8 +33,8 @@ class CharStreamDemo {
 	}
 }
 
-class ByteStreamDemo {
-	ByteStreamDemo () {
+class ByteStreamCopyDemo {
+	ByteStreamCopyDemo () {
 		FileInputStream source = null;
 		FileOutputStream target = null;
 		int k;
@@ -65,7 +65,7 @@ class ByteStreamDemo {
 
 class Question10 {
 	public static void main(String[] args) {
-		CharStreamDemo charStreamObj = new CharStreamDemo ();
-		ByteStreamDemo byteStreamObj = new ByteStreamDemo ();
+		CharStreamCopyDemo charStreamObj = new CharStreamCopyDemo ();
+		ByteStreamCopyDemo byteStreamObj = new ByteStreamCopyDemo ();
 	}
 }
