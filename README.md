@@ -22,4 +22,4 @@
 17. Write a program to create an applet that demonstrate the working of button, label, insets. :white_check_mark:
 18. Write a program to implement any one of the 4 layout managers. :white_check_mark:
 19. Write a program to connect to any database using JDBC Type 4 driver. :x:
-20. Write a program to demonstrate use of TCP and UDP methods. :x:
+20. Write a program to demonstrate use of TCP and UDP methods. :white_check_mark:
