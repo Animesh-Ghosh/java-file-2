@@ -1,3 +1,4 @@
+import java.io.*;
 import java.net.*;
 
 class UDP {
@@ -29,14 +30,19 @@ class UDP {
 			System.out.println (new String (p.getData(), 0, p.getLength ()));
 		}
 	}
-	public static void main (String args[]) throws Exception {
-		if (args[0].equals ("server")) {
-			ds = new DatagramSocket(serverPort);
-			Server ();
-		} 
-		else if (args[0].equals ("client")) {
-			ds = new DatagramSocket(clientPort);
-			Client ();
+	public static void main (String args[]) throws Exception { // UDP server|client
+		try {
+			if (args[0].equals ("server")) {
+				ds = new DatagramSocket (serverPort);
+				Server ();
+			} 
+			else if (args[0].equals ("client")) {
+				ds = new DatagramSocket (clientPort);
+				Client ();
+			}
+		}
+		catch (Exception e) {
+			System.out.println (e);
 		}
 	}
 }
