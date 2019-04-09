@@ -23,9 +23,9 @@ class Customer {
 	}
 }
 
-class MyThread1 extends Thread {
+class interThread1 extends Thread {
 	Customer c;
-	MyThread1 (Customer c) {
+	interThread1 (Customer c) {
 		this.c = c;
 	}
 	public void run () {
@@ -33,9 +33,9 @@ class MyThread1 extends Thread {
 	}
 }
 
-class MyThread2 extends Thread {
+class interThread2 extends Thread {
 	Customer c;
-	MyThread2 (Customer c) {
+	interThread2 (Customer c) {
 		this.c = c;
 	}
 	public void run () {
@@ -46,8 +46,8 @@ class MyThread2 extends Thread {
 class Question8 {
 	public static void main (String args[]) {
 		final Customer c = new Customer ();
-		MyThread1 t1 = new MyThread1 (c);
-		MyThread2 t2 = new MyThread2 (c);
+		interThread1 t1 = new interThread1 (c);
+		interThread2 t2 = new interThread2 (c);
 		t1.start ();
 		t2.start ();
 	}

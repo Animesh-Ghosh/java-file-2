@@ -12,6 +12,7 @@ public class Question14 extends Applet implements MouseListener, MouseMotionList
 	String msg = "";
 	int mouseX = 0, mouseY = 0;
 	public void init () {
+		setBackground (Color.cyan);
 		addMouseListener (this);
 		addMouseMotionListener (this);
 	}

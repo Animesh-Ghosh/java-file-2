@@ -1,6 +1,6 @@
 // program to display ID's of 5 different child threads spawned from main
 
-class Demo extends Thread {
+class getIDDemo extends Thread {
 	public void run () {
 		System.out.println ("Name is " + this.getName () + ".");
 		System.out.println ("Thread ID: " + this.currentThread ().getId ());
@@ -12,7 +12,7 @@ class Demo extends Thread {
 class Question4 {
 	public static void main (String args[]) {
 		for (int i = 0; i < 5; i++) {
-			Demo obj = new Demo ();
+			getIDDemo obj = new getIDDemo ();
 			obj.start ();
 		}
 	}

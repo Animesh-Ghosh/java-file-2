@@ -15,6 +15,7 @@ public class Question13 extends Applet implements ActionListener {
 	Button enter;
 	Panel upper, lower;
 	public void init () {
+		setBackground (Color.cyan);
 		upper = new Panel ();
 		lower = new Panel ();
 		upper.setLayout (new GridLayout (7, 2, 5, 5));
