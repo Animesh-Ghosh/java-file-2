@@ -1,4 +1,4 @@
-// program to demonstrate use of synchronization
+// program to demonstrate the use of synchronization by spawning 3 different threads
 
 class Demo {
 	synchronized void print (int n) {

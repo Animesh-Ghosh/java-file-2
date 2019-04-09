@@ -1,7 +1,7 @@
 import java.io.*;
 
-/* program to take input from keyboard and write into a file using character stream and
-	byte stream */
+/* program to take input from keyboard and write into a file using character stream 
+	and byte stream */
 
 class CharStreamDemo {
 	CharStreamDemo () {

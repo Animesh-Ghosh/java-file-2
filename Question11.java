@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.applet.*;
 
+// program to create an applet to display a moving banner
+
 /* <applet code="Question11" width=300 height=50>
 	</applet> */
 

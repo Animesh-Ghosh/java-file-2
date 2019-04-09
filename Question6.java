@@ -1,4 +1,4 @@
-// program to demonstrate use of setPriority () method
+// program to spawn 3 childs threads with different priorities
 
 class threadPriority extends Thread {
 	threadPriority (String str) {

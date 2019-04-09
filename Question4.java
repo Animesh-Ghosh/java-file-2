@@ -1,4 +1,4 @@
-// program to demonstrate use of getId () function
+// program to display ID's of 5 different child threads spawned from main
 
 class Demo extends Thread {
 	public void run () {

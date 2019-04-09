@@ -1,5 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
+
+// program that accepts 10 names from keyboard and arrange them in dictionary order
  
 class Question15 {
 	public static void main (String args[]) {
